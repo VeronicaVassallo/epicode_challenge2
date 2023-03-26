@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App music streaming</title>
+    <style>
+        .allinea{
+            display: inline;
+
+        }
+        body{
+            background: rgb(214, 227, 73);
+background: radial-gradient(circle, rgb(216, 230, 68) 0%, rgba(207,70,252,1) 100%);
+        }
+        form{
+            /*background-color: rgb(172, 156, 177);*/
+            color: white;
+            padding: 15px;
+        }
+        h1{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Benvenuti nel App di Music streaming! 
+        Inserisci i tuoi dati per continuare </h1>
+<br>
+<form onsubmit="alert('Registrazione inviata!')">
+    <div>
+        <p>Nome:</p>
+        <input type="text" placeholder="esempio: Mario">
+    </div>
+    <div>
+        <p>Cognome:</p>
+        <input type="text" placeholder="esempio: Rossi">
+    </div>
+    <div>
+        <p>Email: </p>
+        <input type="email" placeholder="Mario.Rossi@epicode.com">
+    </div>
+    <div>
+        <p>Password: </p>
+        <input type="password" placeholder="password">
+    </div>
+    <div>
+        <p>Conferma Password:</p>
+        <input type="password" placeholder="password">
+    </div>
+    <div>
+        <p>Data di nascita: </p>
+        <input type="date">
+    </div>
+    <div>
+        <p>Numero di telefono: </p>
+        <input type="number" placeholder="0123456789">
+    </div>
+    <div>
+        <p>Seleziona i tuoi generi musicali preferiti</p>
+        <input type="checkbox"><p class="allinea">Pop</p>
+    </div>
+    <div>
+        <input type="checkbox"><p class="allinea">Rock</p>
+    </div>
+    <div>
+        <input type="checkbox"><p class="allinea">Musica Classica</p>
+    </div>
+    <div>
+        <input type="checkbox"><p class="allinea">Jazz</p>
+    </div>
+    <div>
+        <p>Accettazione dei termini e condizioni</p>
+        <input type="radio">
+    </div>
+    <div>
+        <button type="submit">Invia registrazione
+        </button>
+    </div>
+
+
+</form>
+    
+</body>
+</html>                 
